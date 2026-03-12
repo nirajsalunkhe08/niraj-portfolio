@@ -1,4 +1,4 @@
-declare module 'gsap-trial/SplitText' {
+declare module 'gsap/SplitText' {
   export class SplitText {
     chars: Element[];
     words: Element[];
@@ -9,7 +9,7 @@ declare module 'gsap-trial/SplitText' {
   }
 }
 
-declare module 'gsap-trial/ScrollSmoother' {
+declare module 'gsap/ScrollSmoother' {
   interface ScrollSmootherVars {
     wrapper?: string | Element;
     content?: string | Element;
@@ -36,11 +36,11 @@ declare module 'gsap-trial/ScrollSmoother' {
   }
 }
 
-declare module 'gsap-trial/ScrollTrigger' {
+declare module 'gsap/ScrollTrigger' {
   export { ScrollTrigger } from 'gsap/ScrollTrigger';
 }
 
-declare module 'gsap-trial/*' {
+declare module 'gsap/*' {
   const plugin: gsap.Plugin;
   export default plugin;
   export { plugin };
